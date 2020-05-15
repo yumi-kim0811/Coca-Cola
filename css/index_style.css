@@ -774,6 +774,39 @@ section{width:100%;}
 #content_3 #BG .bg img{
     width:200%;
 }
+#content_3 #BG .p-info{
+    position:absolute;
+    right:9%;top:90%;
+    white-space: pre-line;
+    
+}
+#content_3 #BG .p-info b{
+    font-size:1.7rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+#content_3 #BG .p-info p{
+    line-height: 30px;
+    font-size:1.5rem;
+}
+
+#content_3 #BG .p-info a{
+    text-decoration: none;
+    color:white;
+    font-size:1.3rem;
+    background: #e60012;
+    border-radius: 100px;
+    padding: 12px 50px;
+}
+/*#content_3 #BG .p-info a:hover{
+    채워지는거 다온 예약하기 참고!
+}*/
+#content_3 #BG .more a{
+    width:100px; height: 30px;
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
 #content_3 ul{
     width: 100%;
     position:absolute;
@@ -799,7 +832,51 @@ section{width:100%;}
     transform: scale(0.7);
 }
 
-
+/*content_4*/
+#content_4{
+    width:100%; height: 100vh;
+    background:#ffd6c4;
+    position:relative;
+}
+#content_4 .zine{
+    position:absolute;
+    left:36%; top:21%;
+    text-align: center;
+}
+#content_4 .zine h1{
+    font-size:3rem;
+    color:#e60012;
+    font-size:4.1rem;
+    font-family: 'Cooper Blk BT';
+}
+#content_4 .zine p{
+    font-size:1.25rem;
+    font-family: '나눔스퀘어라운드';
+    font-weight: 600;
+}
+#content_4 .cf{
+    position:absolute;
+    left:2%; top:28.5%;
+    justify-content: center;
+}
+#content_4 .cf span{
+    width:180px; height:5px;
+    background:#e60012;
+    margin-bottom: 3px;
+}
+#content_4 .cf small{
+    font-size:1.3rem;
+    color:#e60012;
+    font-family: '나눔스퀘어라운드';
+    font-weight: 900;
+}
+#content_4 #table{
+    width: 1430px; height: 705px;
+    position: absolute;
+    left:15%;top:32%;
+    background: rgba(0,0,0,0);
+    border:1px solid red;
+}
 /*----------------footer----------------*/
 
 /*
