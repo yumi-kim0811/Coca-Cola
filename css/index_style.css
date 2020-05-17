@@ -881,29 +881,118 @@ section{width:100%;}
 #content_4 #table .left{
     float:left;
     margin-right: 20px;
+    width:455px; height:773px;
 }
 #content_4 #table .left .GEORGIA{
-    width:455px; height: 254px;
-    background:image('img/img/cf-contents/coca-zine-Gerogia.jpg')
+    width:100%;
+    position:relative;
 }
 #content_4 #table .left .GEORGIA img{
-    width:95%;
+    width:100%; height:100%;
+}
+#content_4 #table .left .GEORGIA div{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 98.5%;
+    background: #331a00;
+    opacity: 0;
 }
 #content_4 #table .left .GEORGIA div:hover{
-    width:95%;
-    background:#715143;
-    opacity: .5;
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 98.5%;
+    background: #331a00;
+    opacity:1;
+    text-align: center;
+}
+#content_4 #table .left .GEORGIA div img{
+    width:60%; height: 60%;
+    position:absolute;
+    left:20%; top:20%;
+}
+#content_4 #table .left .GEORGIA div p{
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    width:130px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    position:absolute;
+    left:34%;top:75%;
 }
 #content_4 #table .left .Tropicana{
-    
+    width:100%;
+    position:relative;
 }
 #content_4 #table .left .Tropicana img{
-    width:95%;
+    width:100%; height:100%;
 }
-#content_4 #table .left .Tropicana img:hover{
-    width: 95%;
-    background:green;
-    opacity: .8;
+#content_4 #table .left .Tropicana div{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:98.5%;
+    background:#00561f;
+    opacity:0;
+    text-align: center;
+}
+#content_4 #table .left .Tropicana div:hover{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height:98.5%;
+    background:#00561f;
+    opacity:1;
+}
+#content_4 #table .left .Tropicana div img{
+    width: 40%; height: 40%;
+    position:absolute;
+    left:31%; top:30%;
+}
+#content_4 #table .left .Tropicana div p{
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    width:130px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    position:absolute;
+    left:34%;top:75%;
+}
+#content_4 #table .left .Ades{
+    position:relative;
+    width:100%;
+}
+#content_4 #table .left .Ades img{
+    width:100%; height: 100%;
+}
+#content_4 #table .left .Ades div{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 98.5%;
+    background:#00a0e9;
+    opacity: 0;
+    text-align: center;
+}
+#content_4 #table .left .Ades div:hover{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 98.5%;
+    background:#00a0e9;
+    opacity: 1;
+}
+#content_4 #table .left .Ades div img{
+    width:40%; height: 40%;
+    position:absolute;
+    left:31%; top:20%;
+}
+#content_4 #table .left .Ades div p{
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    width:130px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    position:absolute;
+    left:34%;top:72%;
 }
 #content_4 #table .Coca-Cola{
     margin-right:20px;
@@ -916,7 +1005,6 @@ section{width:100%;}
 }
 /*----------------footer----------------*/
 
-/*
 footer{
     width:100%;
     background:#d72734;
@@ -975,7 +1063,6 @@ footer select option{
     color:black;
     font-size:14px;
 }
-*/
 
 /*------------------------------------------*/
 @media (max-width:1525px){
