@@ -871,11 +871,48 @@ section{width:100%;}
     font-weight: 900;
 }
 #content_4 #table{
-    width: 1430px; height: 705px;
+    width: 1700px; height: 705px;
     position: absolute;
-    left:15%;top:32%;
+    left:8%;top:32%;
     background: rgba(0,0,0,0);
     border:1px solid red;
+    display: flex;
+}
+#content_4 #table .left{
+    float:left;
+    margin-right: 20px;
+}
+#content_4 #table .left .GEORGIA{
+    width:455px; height: 254px;
+    background:image('img/img/cf-contents/coca-zine-Gerogia.jpg')
+}
+#content_4 #table .left .GEORGIA img{
+    width:95%;
+}
+#content_4 #table .left .GEORGIA div:hover{
+    width:95%;
+    background:#715143;
+    opacity: .5;
+}
+#content_4 #table .left .Tropicana{
+    
+}
+#content_4 #table .left .Tropicana img{
+    width:95%;
+}
+#content_4 #table .left .Tropicana img:hover{
+    width: 95%;
+    background:green;
+    opacity: .8;
+}
+#content_4 #table .Coca-Cola{
+    margin-right:20px;
+}
+#content_4 #table .Coca-Cola img{
+    width:508px; height: 772px;
+}
+#content_4 #table .right{
+    float:right;
 }
 /*----------------footer----------------*/
 
