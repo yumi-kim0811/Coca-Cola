@@ -871,20 +871,23 @@ section{width:100%;}
     font-weight: 900;
 }
 #content_4 #table{
-    width: 1700px; height: 705px;
+    width: 1450px; height: 770px;
     position: absolute;
-    left:8%;top:32%;
+    left:50%;top:32%;
+    transform: translateX(-50%);
     background: rgba(0,0,0,0);
     border:1px solid red;
     display: flex;
 }
 #content_4 #table .left{
-    float:left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-right: 20px;
-    width:455px; height:773px;
+    width:455px; height:770px;
 }
 #content_4 #table .left .GEORGIA{
-    width:100%;
+    width:454px; height: 255px;
     position:relative;
 }
 #content_4 #table .left .GEORGIA img{
@@ -893,22 +896,22 @@ section{width:100%;}
 #content_4 #table .left .GEORGIA div{
     position:absolute;
     left:0; top:0;
-    width:100%; height: 98.5%;
-    background: #331a00;
-    opacity: 0;
+    width:100%; height:100%;
+    background: rgba(122,63,0,0.6);
+    text-align: center;
 }
 #content_4 #table .left .GEORGIA div:hover{
     position:absolute;
     left:0; top:0;
-    width:100%; height: 98.5%;
+    width:100%; height:100%;
     background: #331a00;
     opacity:1;
-    text-align: center;
 }
 #content_4 #table .left .GEORGIA div img{
-    width:60%; height: 60%;
+    width:55%; height: 45%;
     position:absolute;
-    left:20%; top:20%;
+    left:50%; top:20%;
+    transform: translateX(-50%);
 }
 #content_4 #table .left .GEORGIA div p{
     border:1px solid white;
@@ -918,10 +921,11 @@ section{width:100%;}
     padding: 5px 5px;
     border-radius: 50px;
     position:absolute;
-    left:34%;top:75%;
+    left:50%;top:64%;
+    transform: translateX(-50%);
 }
 #content_4 #table .left .Tropicana{
-    width:100%;
+    width:453px; height: 276px;
     position:relative;
 }
 #content_4 #table .left .Tropicana img{
@@ -930,22 +934,22 @@ section{width:100%;}
 #content_4 #table .left .Tropicana div{
     position:absolute;
     left:0; top:0;
-    width:100%; height:98.5%;
-    background:#00561f;
-    opacity:0;
+    width:100%; height:100%;
+    background: rgba(0,86,31,0.65);
     text-align: center;
 }
 #content_4 #table .left .Tropicana div:hover{
     position:absolute;
     left:0; top:0;
-    width:100%; height:98.5%;
+    width:100%; height:100%;
     background:#00561f;
     opacity:1;
 }
 #content_4 #table .left .Tropicana div img{
     width: 40%; height: 40%;
     position:absolute;
-    left:31%; top:30%;
+    left:50%; top:30%;
+    transform: translateX(-50%);
 }
 #content_4 #table .left .Tropicana div p{
     border:1px solid white;
@@ -967,22 +971,22 @@ section{width:100%;}
 #content_4 #table .left .Ades div{
     position:absolute;
     left:0; top:0;
-    width:100%; height: 98.5%;
-    background:#00a0e9;
-    opacity: 0;
+    width:100%; height:100%;
+    background:rgba(0,160,233,0.6);
     text-align: center;
 }
 #content_4 #table .left .Ades div:hover{
     position:absolute;
     left:0; top:0;
-    width:100%; height: 98.5%;
+    width:100%; height:100%;
     background:#00a0e9;
     opacity: 1;
 }
 #content_4 #table .left .Ades div img{
-    width:40%; height: 40%;
+    width:35%; height: 35%;
     position:absolute;
-    left:31%; top:20%;
+    left:50%; top:30%;
+    transform: translate(-50%);
 }
 #content_4 #table .left .Ades div p{
     border:1px solid white;
@@ -996,12 +1000,13 @@ section{width:100%;}
 }
 #content_4 #table .Coca-Cola{
     margin-right:20px;
+    width:508px; height: 769px;
 }
 #content_4 #table .Coca-Cola img{
-    width:508px; height: 772px;
+   height: 100%;
 }
 #content_4 #table .right{
-    float:right;
+    /*float:right;*/
 }
 /*----------------footer----------------*/
 
