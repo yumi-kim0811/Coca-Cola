@@ -832,7 +832,7 @@ section{width:100%;}
     transform: scale(0.7);
 }
 
-/*content_4*/
+/*-----------------content_4------------------*/
 #content_4{
     width:100%; height: 100vh;
     background:#ffd6c4;
@@ -875,10 +875,9 @@ section{width:100%;}
     position: absolute;
     left:50%;top:32%;
     transform: translateX(-50%);
-    background: rgba(0,0,0,0);
-    border:1px solid red;
     display: flex;
 }
+/*left*/
 #content_4 #table .left{
     display: flex;
     flex-direction: column;
@@ -901,8 +900,6 @@ section{width:100%;}
     text-align: center;
 }
 #content_4 #table .left .GEORGIA div:hover{
-    position:absolute;
-    left:0; top:0;
     width:100%; height:100%;
     background: #331a00;
     opacity:1;
@@ -939,14 +936,12 @@ section{width:100%;}
     text-align: center;
 }
 #content_4 #table .left .Tropicana div:hover{
-    position:absolute;
-    left:0; top:0;
     width:100%; height:100%;
     background:#00561f;
     opacity:1;
 }
 #content_4 #table .left .Tropicana div img{
-    width: 40%; height: 40%;
+    width: 35%; height: 30%;
     position:absolute;
     left:50%; top:30%;
     transform: translateX(-50%);
@@ -959,7 +954,8 @@ section{width:100%;}
     padding: 5px 5px;
     border-radius: 50px;
     position:absolute;
-    left:34%;top:75%;
+    left:50%;top:65%;
+    transform: translateX(-50%);
 }
 #content_4 #table .left .Ades{
     position:relative;
@@ -976,17 +972,15 @@ section{width:100%;}
     text-align: center;
 }
 #content_4 #table .left .Ades div:hover{
-    position:absolute;
-    left:0; top:0;
     width:100%; height:100%;
     background:#00a0e9;
-    opacity: 1;
+    opacity:1;
 }
 #content_4 #table .left .Ades div img{
     width:35%; height: 35%;
     position:absolute;
     left:50%; top:30%;
-    transform: translate(-50%);
+    transform: translateX(-50%);
 }
 #content_4 #table .left .Ades div p{
     border:1px solid white;
@@ -996,15 +990,131 @@ section{width:100%;}
     padding: 5px 5px;
     border-radius: 50px;
     position:absolute;
-    left:34%;top:72%;
+    left:50%;top:72%;
+    transform: translateX(-50%);
 }
+/*center*/
 #content_4 #table .Coca-Cola{
     margin-right:20px;
-    width:508px; height: 769px;
+    width:508px; height: 770px;
+    position:relative;
 }
 #content_4 #table .Coca-Cola img{
    height: 100%;
 }
+#content_4 #table .Coca-Cola div{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 100%;
+    background: rgba(230,0,18,0.6);
+    text-align: center;
+}
+#content_4 #table .Coca-Cola div:hover{
+    width:100%; height: 100%;
+    background: #e60012;
+    opacity:1;
+}
+#content_4 #table .Coca-Cola div img{
+    width:40%; height: 10%;
+    position:absolute;
+    left:50%; top:50%;
+    transform: translateX(-50%);
+}
+#content_4 #table .Coca-Cola div p{
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    width:130px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    position:absolute;
+    left:50%;top:63%;
+    transform: translate(-50%);
+}
+/*right*/
+#content_4 #table .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-right: 20px;
+    width:455px; height:770px;
+}
+#content_4 #table .right .W-water{
+    margin-right:20px;
+    width:450px; height: 490px;
+    position:relative;
+}
+#content_4 #table .right .W-water img{
+    width:100%; height: 100%;
+}
+#content_4 #table .right .W-water div{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 100%;
+    background: rgba(207,169,114,0.6);
+    text-align: center;
+}
+#content_4 #table .right .W-water div:hover{
+    width:100%; height: 100%;
+    background:#cfa972;
+    opacity:1;
+}
+#content_4 #table .right .W-water div img{
+    width:40%; height: 20%;
+    position:absolute;
+    left:50%; top:41%;
+    transform: translateX(-50%);
+}
+#content_4 #table .right .W-water div p{
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    width:130px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    position:absolute;
+    left:50%;top:64%;
+    transform: translate(-50%);
+}
+#content_4 #table .right .Toreta{
+    width:450px; height: 274px;
+    position:relative;
+}
+#content_4 #table .right .Toreta img{
+    width:100%; height: 100%;
+}
+#content_4 #table .right .Toreta div{
+    position:absolute;
+    left:0; top:0;
+    width:100%; height: 100%;
+    text-align: center;
+    background: rgba(255,234,0,0.6);
+}
+#content_4 #table .right .Toreta div:hover{
+    width:100%; height: 100%;
+    background:#ffea00;
+    opacity: 1;
+}
+#content_4 #table .right .Toreta div img{
+    width:40%; height: 18%;
+    position:absolute;
+    left:50%; top:50%;
+    transform: translateX(-50%);
+}
+#content_4 #table .right .Toreta p{
+    border:1px solid white;
+    color:white;
+    font-size:15px;
+    width:130px;
+    padding: 5px 5px;
+    border-radius: 50px;
+    position:absolute;
+    left:50%;top:70%;
+    transform: translateX(-50%);
+}
+
+------------------------------------
+
 #content_4 #table .right{
     /*float:right;*/
 }
